@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292826"
+    tools:context=".Unit1">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit 1: Atomic Theory"
+        android:textColor="#F9D342"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <Button
+        android:id="@+id/lesson1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson 1"
+        android:textSize="20sp"
+        android:textColor="#F9D342"
+        android:background="@drawable/button_format"
+        android:onClick="viewLesson1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/lesson2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson 2"
+        android:textSize="20sp"
+        android:textColor="#F9D342"
+        android:background="@drawable/button_format"
+        android:onClick="viewLesson2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/lesson3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson 3"
+        android:textSize="20sp"
+        android:textColor="#F9D342"
+        android:background="@drawable/button_format"
+        android:onClick="viewLesson3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <Button
+        android:id="@+id/lesson4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson 4"
+        android:textSize="20sp"
+        android:textColor="#F9D342"
+        android:background="@drawable/button_format"
+        android:onClick="viewLesson4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/lesson5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson 5"
+        android:textSize="20sp"
+        android:textColor="#F9D342"
+        android:background="@drawable/button_format"
+        android:onClick="viewLesson5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <Button
+        android:id="@+id/lesson6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_format"
+        android:onClick="viewLesson6"
+        android:text="Lesson 6"
+        android:textSize="20sp"
+        android:textColor="#F9D342"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/lesson7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_format"
+        android:onClick="viewLesson7"
+        android:text="Lesson 7"
+        android:textSize="20sp"
+        android:textColor="#F9D342"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/lesson8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_format"
+        android:onClick="viewLesson8"
+        android:text="Lesson 8"
+        android:textSize="20sp"
+        android:textColor="#F9D342"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <Button
+        android:id="@+id/lesson9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson 9"
+        android:textSize="20sp"
+        android:textColor="#F9D342"
+        android:background="@drawable/button_format"
+        android:onClick="viewLesson9"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/lesson10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson 10"
+        android:textSize="20sp"
+        android:textColor="#F9D342"
+        android:background="@drawable/button_format"
+        android:onClick="viewLesson10"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <Button
+        android:id="@+id/lesson11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="viewLesson11"
+        android:text="Lesson 11"
+        android:textSize="20sp"
+        android:textColor="#F9D342"
+        android:background="@drawable/button_format"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="527dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
