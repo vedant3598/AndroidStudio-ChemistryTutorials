@@ -10,27 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Unit5"
-                  android:screenOrientation="portrait"
-                  android:configChanges="orientation|keyboardHidden">
+                  android:screenOrientation="portrait">
         </activity>
         <activity android:name=".Unit4"
-                  android:screenOrientation="portrait"
-                  android:configChanges="orientation|keyboardHidden"/>
+                  android:screenOrientation="portrait" />
         <activity android:name=".Unit3"
-                  android:screenOrientation="portrait"
-                  android:configChanges="orientation|keyboardHidden"/>
+                  android:screenOrientation="portrait" />
         <activity android:name=".Unit2"
-                  android:screenOrientation="portrait"
-                  android:configChanges="orientation|keyboardHidden"/>
+                  android:screenOrientation="portrait" />
         <activity android:name=".Unit1"
-                  android:screenOrientation="portrait"
-                  android:configChanges="orientation|keyboardHidden"/>
+                  android:screenOrientation="portrait" />
         <activity android:name=".UnitsList"
-                  android:screenOrientation="portrait"
-                  android:configChanges="orientation|keyboardHidden"/>
+                  android:screenOrientation="portrait" />
         <activity android:name=".MainActivity"
-                  android:screenOrientation="portrait"
-                  android:configChanges="orientation|keyboardHidden">
+                  android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
